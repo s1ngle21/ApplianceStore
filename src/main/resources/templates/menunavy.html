@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<body>
+<div th:fragment="navy">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" th:text="#{shop.name}"></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item" sec:authorize="hasRole('EMPLOYEE')">
+                        <a class="nav-link" th:href="@{/clients}" th:text="#{clients.menu.name}"></a>
+                    </li>
+                    <li class="nav-item" sec:authorize="hasRole('EMPLOYEE')">
+                        <a class="nav-link" th:href="@{/employees}" th:text="#{employees.menu.name}"></a>
+                    </li>
+                    <li class="nav-item" sec:authorize="hasRole('EMPLOYEE')">
+                        <a class="nav-link" th:href="@{/manufacturers}" th:text="#{manufacturers.menu.name}"></a>
+                    </li>
+                    <li class="nav-item" sec:authorize="hasRole('EMPLOYEE')">
+                        <a class="nav-link" th:href="@{/appliances}" th:text="#{appliances.menu.name}"></a>
+                    </li>
+                    <li class="nav-item" sec:authorize="hasAnyRole('CLIENT', 'EMPLOYEE')">
+                        <a class="nav-link" th:href="@{/order}" th:text="#{order.menu.name}"></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span th:text="#{language.menu.name}">Language</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" th:href="@{?lang=en}" th:text="#{language.english}">English</a></li>
+                            <li><a class="dropdown-item" th:href="@{?lang=uk}" th:text="#{language.ukrainian}">Українська</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" sec:authorize="isAuthenticated()">
+                        <form th:action="@{/logout}" method="post">
+                            <button type="submit" class="btn btn-link nav-link" style="text-decoration: none; color: white;">Logout</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div th:fragment="line">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Appliance store</a>
+        </div>
+    </nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Add an appliance</title>
+</head>
+<body>
+<header>
+    <div th:insert="~{menunavy::navy}"></div>
+</header>
+<main class="container mt-4">
+    <h1 class="text-center mb-4" th:text="#{appliance.header.list}">Appliances List</h1>
+
+    <form th:action="@{/order/{id}/appliance/add(id=${order.id})}" th:object="${applianceForm}" method="post">
+        <div class="mb-3">
+            <label for="applianceId" class="form-label" th:text="#{choose.appliance}">Choose Appliance</label>
+            <select class="form-select" id="applianceId" name="applianceId" th:field="*{applianceId}">
+                <option value="" disabled selected>Select appliance</option>
+                <option th:each="appliance : ${appliances}"
+                        th:value="${appliance.id}"
+                        th:text="${appliance.name + ' - $' + appliance.price}"></option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="quantity" class="form-label" th:text="#{quantity}">Quantity</label>
+            <input type="number" class="form-control" id="quantity" name="quantity" th:field="*{quantity}">
+            <div th:if="${#fields.hasErrors('quantity')}" class="form-text text-danger" th:errors="*{quantity}"></div>
+        </div>
+
+        <div class="text-end">
+            <button type="submit" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Add Appliance
+            </button>
+        </div>
+    </form>
+</main>
+
+<footer class="mt-4">
+    <div th:insert="~{footer::footer}"></div>
+</footer>
+</body>
+</html>

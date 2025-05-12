@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Update Client</title>
+</head>
+<body>
+<div th:insert="~{menunavy::navy}"></div>
+<main class="container mt-4">
+    <h1 th:text="#{client.btn.update}" class="text-center mb-4">Update Client</h1>
+    <form th:object="${clientUpdate}" th:action="@{'/clients/' + ${clientUpdate.id} + '/update'}" method="post">
+        <div class="form-group mb-3">
+            <label for="first-name">Name:</label>
+            <input type="text" th:field="*{name}" id="first-name" class="form-control"/>
+            <small class="form-text text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></small>
+        </div>
+        <div class="form-group mb-3">
+            <label for="email">E-mail:</label>
+            <input type="email" th:field="*{email}" id="email" class="form-control"/>
+            <small class="form-text text-danger" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></small>
+        </div>
+        <div class="form-group mb-3">
+            <label for="old-password">Old Password:</label>
+            <input type="password" th:field="*{oldPassword}" id="old-password" class="form-control" placeholder="Enter old password"/>
+            <small class="form-text text-danger" th:if="${#fields.hasErrors('oldPassword')}" th:errors="*{oldPassword}"></small>
+        </div>
+        <div class="form-group mb-3">
+            <label for="new-password">New Password:</label>
+            <input type="password" th:field="*{newPassword}" id="new-password" class="form-control" placeholder="Enter new password"/>
+            <small class="form-text text-danger" th:if="${#fields.hasErrors('newPassword')}" th:errors="*{newPassword}"></small>
+        </div>
+        <div class="form-group mb-3">
+            <label for="card">Card:</label>
+            <input type="text" th:field="*{card}" id="card" class="form-control"/>
+            <small class="form-text text-danger" th:if="${#fields.hasErrors('card')}" th:errors="*{card}"></small>
+        </div>
+        <div class="form-actions text-center">
+            <button type="submit" class="btn btn-primary me-2" th:text="#{client.btn.update}">Update</button>
+            <button type="reset" class="btn btn-secondary" th:text="#{button.reset}">Reset</button>
+        </div>
+    </form>
+</main>
+
+<div th:insert="~{footer::footer}"></div>
+</body>
+</html>

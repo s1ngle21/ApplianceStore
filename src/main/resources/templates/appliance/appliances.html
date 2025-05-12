@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link th:href="@{/styles/css/main.css}" rel="stylesheet"/>
+    <title>Appliance List</title>
+</head>
+<body>
+<header>
+    <div th:insert="~{menunavy::navy}"></div>
+</header>
+<main class="container mt-4">
+    <h1 th:text="#{appliance.header.list}" class="text-center mb-4">Appliances List</h1>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+        <tr>
+            <th th:text="#{object.appliance.id}">ID</th>
+            <th th:text="#{object.appliance.name}">Name</th>
+            <th th:text="#{object.appliance.category}">Category</th>
+            <th th:text="#{object.appliance.model}">Model</th>
+            <th th:text="#{object.appliance.manufacturer}">Manufacturer</th>
+            <th th:text="#{object.appliance.powerType}">Power Type</th>
+            <th th:text="#{object.appliance.characteristic}">Characteristic</th>
+            <th th:text="#{object.appliance.description}">Description</th>
+            <th th:text="#{object.appliance.power}">Power</th>
+            <th th:text="#{object.appliance.price}">Price</th>
+            <th th:text="#{appliance.operations}">Operations</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="appliance: ${appliances}">
+            <td class="text-end" th:text="${appliance.id}"></td>
+            <td th:text="${appliance.name}"></td>
+            <td class="text-end" th:text="${appliance.category}"></td>
+            <td th:text="${appliance.model}"></td>
+            <td class="text-end" th:text="${appliance.manufacturer.getName()}"></td>
+            <td th:text="${appliance.powerType}"></td>
+            <td th:text="${appliance.characteristic}"></td>
+            <td th:text="${appliance.description}"></td>
+            <td class="text-end" th:text="${appliance.power}"></td>
+            <td class="text-end" th:text="${appliance.price}"></td>
+            <td class="text-center">
+                <a class="btn btn-danger btn-sm me-1" th:href="@{/appliances/}+${appliance.id}+@{/delete}">
+                    <i class="bi bi-trash"></i>
+                </a>
+                <a class="btn btn-primary btn-sm" th:href="@{/appliances/}+${appliance.id}+@{/update}">
+                    <i class="bi bi-pencil"></i>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="text-end">
+        <a th:href="@{appliances/add}" class="btn btn-primary" th:text="#{appliance.btn.new}">New Appliance</a>
+    </div>
+</main>
+
+<nav aria-label="Page navigation" class="mt-4">
+    <ul class="pagination justify-content-center">
+        <li class="page-item" th:classappend="${currentPage == 0} ? 'disabled'">
+            <a class="page-link" th:href="@{'/appliances'(page=${currentPage - 1}, size=${pageSize})}">
+                &laquo; Previous
+            </a>
+        </li>
+        <li class="page-item" th:each="pageNum : ${#numbers.sequence(0, totalPages - 1)}"
+            th:classappend="${pageNum == currentPage} ? 'active'">
+            <a class="page-link" th:href="@{'/appliances'(page=${pageNum}, size=${pageSize})}"
+               th:text="${pageNum + 1}">1</a>
+        </li>
+        <li class="page-item" th:classappend="${currentPage == totalPages - 1} ? 'disabled'">
+            <a class="page-link" th:href="@{'/appliances'(page=${currentPage + 1}, size=${pageSize})}">
+                Next &raquo;
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div th:insert="~{footer::footer}" class="mt-4"></div>
+</body>
+</html>
