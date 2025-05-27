@@ -16,7 +16,7 @@ SELECT 'AMD' WHERE NOT EXISTS (SELECT 1 FROM manufacturers WHERE name = 'AMD');
 
 -- Employees
 INSERT INTO employees (name, email, password, department)
-SELECT 'Vanya', 'sambor@gmail.com', '$2a$12$psaL2af.Zj7TVYpR7BygWODJ1uSPDpXBAjsYMXzQkDnwBDi71qbZS', 'security'
+SELECT 'Vanya', 'sambor@gmail.com', '$2a$12$d9970eyHKsg3Mnf3PLXiJuPRBvSjzR5qcE6P8vvalaGYD53Sx2oJm', 'security'
 WHERE NOT EXISTS (SELECT 1 FROM employees WHERE email = 'sambor@gmail.com');
 
 INSERT INTO employees (name, email, password, department)
