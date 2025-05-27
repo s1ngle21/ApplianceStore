@@ -14,7 +14,7 @@
 <main class="container mt-4">
     <h1 class="text-center mb-4" th:text="#{appliance.header.list}">Appliances List</h1>
 
-    <form th:action="@{/order/{id}/appliance/add(id=${order.id})}" th:object="${applianceForm}" method="post">
+    <form th:action="@{/orders/{id}/appliance/add(id=${order.id})}" th:object="${applianceForm}" method="post">
         <div class="mb-3">
             <label for="applianceId" class="form-label" th:text="#{choose.appliance}">Choose Appliance</label>
             <select class="form-select" id="applianceId" name="applianceId" th:field="*{applianceId}">

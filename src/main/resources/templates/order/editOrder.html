@@ -14,7 +14,7 @@
 <main class="container mt-4">
     <h1 class="text-center mb-4" th:text="#{object.order.edit}">Edit Order</h1>
 
-    <form th:action="@{/order/{id}/edit(id=${orderDto.id})}" method="post" th:object="${orderDto}">
+    <form th:action="@{/orders/{id}/edit(id=${orderDto.id})}" method="post" th:object="${orderDto}">
         <input type="hidden" th:field="*{id}"/>
 
         <div class="mb-3">
@@ -53,7 +53,7 @@
         </table>
 
         <div class="mb-3 text-end">
-            <a th:href="@{/order/{orderId}/appliance/add(orderId=${orderDto.id})}" class="btn btn-success">
+            <a th:href="@{/orders/{orderId}/appliance/add(orderId=${orderDto.id})}" class="btn btn-success">
                 <i class="fa fa-plus-square-o"></i> Add Appliance
             </a>
         </div>

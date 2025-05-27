@@ -16,8 +16,8 @@
     <div th:insert="~{menunavy::navy}"></div>
 </header>
 <main class="container mt-4">
-    <h1 th:text="#{order.btn.new}" class="text-center mb-4">New Order</h1>
-    <form action="#" th:action="@{/order/add}" th:object="${order}" method="post" class="p-4 border rounded bg-light">
+    <h1 th:text="#{orders.btn.new}" class="text-center mb-4">New Order</h1>
+    <form action="#" th:action="@{/orders/add}" th:object="${order}" method="post" class="p-4 border rounded bg-light">
         <div class="mb-3">
             <label for="client" class="form-label" th:text="#{object.order.client}">Client</label>
             <select id="client" class="form-select" th:field="*{client}">

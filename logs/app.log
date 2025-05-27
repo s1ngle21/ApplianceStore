@@ -1,0 +1,432 @@
+2025-05-27 13:35:58 INFO  LoggingServices:45 - Executing ClientController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:35:58 INFO  LoggingServices:45 - Executing ClientServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:35:58 INFO  LoggingServices:47 - Execution successful in: ClientServiceImpl.getAll
+2025-05-27 13:35:58 INFO  LoggingServices:47 - Execution successful in: ClientController.getAll
+2025-05-27 13:36:00 INFO  LoggingServices:45 - Executing EmployeeController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:00 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:00 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:36:00 INFO  LoggingServices:47 - Execution successful in: EmployeeController.getAll
+2025-05-27 13:36:01 INFO  LoggingServices:45 - Executing ManufacturerController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:01 INFO  LoggingServices:45 - Executing ManufacturerServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:01 INFO  LoggingServices:47 - Execution successful in: ManufacturerServiceImpl.getAll
+2025-05-27 13:36:01 INFO  LoggingServices:47 - Execution successful in: ManufacturerController.getAll
+2025-05-27 13:36:04 INFO  LoggingServices:45 - Executing ApplianceController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:04 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:04 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:36:04 INFO  LoggingServices:47 - Execution successful in: ApplianceController.getAll
+2025-05-27 13:36:06 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Employee(department=security), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_EMPLOYEE]], 0, 5, null]
+2025-05-27 13:36:06 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:06 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAll
+2025-05-27 13:36:06 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:36:14 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Employee(department=security), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_EMPLOYEE]], 0, 5, null]
+2025-05-27 13:36:14 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:14 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAll
+2025-05-27 13:36:14 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:36:16 INFO  LoggingServices:45 - Executing ApplianceController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:16 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:16 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:36:16 INFO  LoggingServices:47 - Execution successful in: ApplianceController.getAll
+2025-05-27 13:36:18 INFO  LoggingServices:45 - Executing ManufacturerController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:18 INFO  LoggingServices:45 - Executing ManufacturerServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:18 INFO  LoggingServices:47 - Execution successful in: ManufacturerServiceImpl.getAll
+2025-05-27 13:36:18 INFO  LoggingServices:47 - Execution successful in: ManufacturerController.getAll
+2025-05-27 13:36:19 INFO  LoggingServices:45 - Executing EmployeeController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:19 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:19 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:36:19 INFO  LoggingServices:47 - Execution successful in: EmployeeController.getAll
+2025-05-27 13:36:20 INFO  LoggingServices:45 - Executing ClientController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:20 INFO  LoggingServices:45 - Executing ClientServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:20 INFO  LoggingServices:47 - Execution successful in: ClientServiceImpl.getAll
+2025-05-27 13:36:20 INFO  LoggingServices:47 - Execution successful in: ClientController.getAll
+2025-05-27 13:36:25 INFO  LoggingServices:45 - Executing ApplianceController.getAll with args: [{}, 0, 5, null]
+2025-05-27 13:36:25 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:25 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:36:25 INFO  LoggingServices:47 - Execution successful in: ApplianceController.getAll
+2025-05-27 13:36:32 INFO  LoggingServices:45 - Executing ApplianceController.getAll with args: [{}, 1, 5, null]
+2025-05-27 13:36:32 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [1, 5, null]
+2025-05-27 13:36:32 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:36:32 INFO  LoggingServices:47 - Execution successful in: ApplianceController.getAll
+2025-05-27 13:36:34 INFO  LoggingServices:45 - Executing ApplianceController.getAll with args: [{}, 2, 5, null]
+2025-05-27 13:36:34 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [2, 5, null]
+2025-05-27 13:36:34 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:36:34 INFO  LoggingServices:47 - Execution successful in: ApplianceController.getAll
+2025-05-27 13:36:44 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Employee(department=security), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_EMPLOYEE]], 0, 5, null]
+2025-05-27 13:36:44 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAll with args: [0, 5, null]
+2025-05-27 13:36:44 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAll
+2025-05-27 13:36:44 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:36:47 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:36:47 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:36:47 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:36:47 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:36:47 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:36:47 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:36:47 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:36:47 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:36:47 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:36:47 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:36:47 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:36:47 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:36:52 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:36:52 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:36:52 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:36:52 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:36:52 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:36:52 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:36:56 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=1, quantity=2), {applianceForm=ApplianceForm(applianceId=1, quantity=2), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:36:56 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 1, 2]
+2025-05-27 13:36:56 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [1]
+2025-05-27 13:36:56 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 13:36:56 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 13:36:56 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=1, name=Claw, category=BIG, model=-----, manufacturer=Manufacturer(id=1, name=Samsung), powerType=null, characteristic=-------, description=-----, power=600, price=1.01), number=2, amount=2.02)], approved=false)]
+2025-05-27 13:36:56 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 13:37:12 INFO  LoggingServices:45 - Executing AuthController.register with args: [RegistrationClient(name=Ivan, email=s1nglev4l@gmail.com, password=123456q, card=44556575757), null, {registrationRequest=RegistrationClient(name=Ivan, email=s1nglev4l@gmail.com, password=123456q, card=44556575757), org.springframework.validation.BindingResult.registrationRequest=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:37:12 INFO  LoggingServices:45 - Executing AuthServiceImpl.register with args: [RegistrationClient(name=Ivan, email=s1nglev4l@gmail.com, password=123456q, card=44556575757)]
+2025-05-27 13:37:12 ERROR GlobalExceptionHandler:32 - Global Exception Handler - UsernameAlreadyExistsException for URL: http://localhost:8080/register
+2025-05-27 13:37:12 ERROR GlobalExceptionHandler:33 - Reason: User with current email s1nglev4l@gmail.com already exists!
+2025-05-27 13:37:19 INFO  LoggingServices:45 - Executing AuthController.login with args: [AuthRequest(email=s1nglev4l@gmail.com, password=123456q), org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@2607313, null, {}]
+2025-05-27 13:37:19 INFO  LoggingServices:45 - Executing AuthServiceImpl.login with args: [AuthRequest(email=s1nglev4l@gmail.com, password=123456q)]
+2025-05-27 13:37:19 INFO  LoggingServices:47 - Execution successful in: AuthServiceImpl.login
+2025-05-27 13:37:19 INFO  LoggingServices:47 - Execution successful in: AuthController.login
+2025-05-27 13:37:21 ERROR GlobalExceptionHandler:51 - Global Exception Handler - Access Denied for User: [s1nglev4l@gmail.com] URL: http://localhost:8080/appliances
+2025-05-27 13:37:21 ERROR GlobalExceptionHandler:53 - Reason: Access Denied
+2025-05-27 13:37:21 ERROR GlobalExceptionHandler:83 - Exception raised by User = {s1nglev4l@gmail.com} :: {Access Denied} :: URL = {http://localhost:8080/appliances}
+2025-05-27 13:37:45 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:37:45 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:37:45 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:37:45 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:38:19 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:38:19 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:38:19 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:38:19 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:38:23 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:38:23 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:38:36 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:38:36 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:38:36 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:38:36 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:38:36 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:38:36 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:38:36 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:38:36 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:40:13 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:40:13 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:41:09 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:41:09 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:41:09 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:41:09 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:41:09 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:41:09 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:41:09 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:41:09 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:44:40 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:44:40 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:44:40 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:44:40 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:44:40 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:44:40 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:44:40 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:44:40 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:44:53 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:44:53 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:44:53 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=8, quantity=2), {applianceForm=ApplianceForm(applianceId=8, quantity=2), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:44:53 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 8, 2]
+2025-05-27 13:44:53 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [8]
+2025-05-27 13:44:53 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 13:44:53 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 13:44:53 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=8, name=Claw, category=BIG, model=CLW-900X, manufacturer=Manufacturer(id=1, name=Samsung), powerType=null, characteristic=Літій-іонний акумулятор, 12 годин роботи, description=Потужний пилосос для великого будинку, power=600, price=129.99), number=2, amount=259.98)], approved=false)]
+2025-05-27 13:44:53 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 13:47:10 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:47:10 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:47:10 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:47:10 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:47:14 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:47:14 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, OrderDto(id=1, employee=EmployeeDto(id=2, name=Denys, email=dan23@gmail.com, password=$2a$12$psaL2af.Zj7TVYpR7BygWODJ1uSPDpXBAjsYMXzQkDnwBDi71qbZS, department=security), client=ClientDto(id=1, name=Ivan, email=null, password=null, card=null), orderRowSetDto=[], approved=false), UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]]]
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing OrderServiceImpl.updateById with args: [1, OrderDto(id=1, employee=EmployeeDto(id=2, name=Denys, email=dan23@gmail.com, password=$2a$12$psaL2af.Zj7TVYpR7BygWODJ1uSPDpXBAjsYMXzQkDnwBDi71qbZS, department=security), client=ClientDto(id=1, name=Ivan, email=null, password=null, card=null), orderRowSetDto=[], approved=false)]
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.updateById
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:47:21 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:47:21 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:47:25 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:47:25 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:47:29 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:47:29 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:47:29 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:47:29 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:47:29 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:47:29 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:47:29 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:47:29 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:47:37 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:47:37 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:47:37 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=3, quantity=2), {applianceForm=ApplianceForm(applianceId=3, quantity=2), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:48:07 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 3, 2]
+2025-05-27 13:48:07 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [3]
+2025-05-27 13:48:07 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 13:48:07 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 13:48:07 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=3, name=Ecu, category=SMALL, model=-----, manufacturer=Manufacturer(id=2, name=Dell), powerType=null, characteristic=--------, description=-----, power=800, price=3.01), number=2, amount=6.02)], approved=false)]
+2025-05-27 13:48:07 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 13:51:22 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:51:22 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:51:22 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:51:22 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:51:25 INFO  LoggingServices:45 - Executing OrderController.add with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]]]
+2025-05-27 13:51:26 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:51:26 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:51:26 INFO  LoggingServices:47 - Execution successful in: OrderController.add
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:51:30 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:51:30 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:51:34 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:51:34 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:51:34 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:51:34 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:51:34 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:51:34 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:51:34 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:51:34 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:51:40 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:51:40 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:51:40 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=4, quantity=1), {applianceForm=ApplianceForm(applianceId=4, quantity=1), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:51:40 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 4, 1]
+2025-05-27 13:51:40 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [4]
+2025-05-27 13:51:40 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 13:51:40 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 13:51:40 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=4, name=Kang Dae, category=BIG, model=-----, manufacturer=Manufacturer(id=4, name=Apple), powerType=null, characteristic=--------, description=-----, power=3600, price=4.01), number=1, amount=4.01)], approved=false)]
+2025-05-27 13:51:40 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 13:54:11 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:54:11 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:54:11 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:54:11 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:54:15 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:54:15 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:54:19 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:54:19 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:54:19 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:54:19 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:54:19 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:54:19 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:54:19 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:54:19 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:54:26 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:54:26 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:54:26 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=1, quantity=2), {applianceForm=ApplianceForm(applianceId=1, quantity=2), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:54:39 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 1, 2]
+2025-05-27 13:54:39 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [1]
+2025-05-27 13:54:39 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 13:54:39 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 13:55:47 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=1, name=Claw, category=BIG, model=-----, manufacturer=Manufacturer(id=1, name=Samsung), powerType=null, characteristic=-------, description=-----, power=600, price=1.01), number=2, amount=2.02)], approved=false)]
+2025-05-27 13:55:47 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 13:56:02 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 13:56:02 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 13:56:02 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 13:56:02 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:56:06 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 13:56:06 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 13:56:09 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:56:09 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:56:09 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 13:56:09 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 13:56:09 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 13:56:09 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 13:56:09 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 13:56:09 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 13:56:15 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 13:56:15 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 13:56:15 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=3, quantity=1), {applianceForm=ApplianceForm(applianceId=3, quantity=1), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 13:56:27 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 3, 1]
+2025-05-27 13:56:30 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [3]
+2025-05-27 13:56:30 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 13:58:59 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 14:00:52 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=3, name=Ecu, category=SMALL, model=-----, manufacturer=Manufacturer(id=2, name=Dell), powerType=null, characteristic=--------, description=-----, power=800, price=3.01), number=1, amount=3.01)], approved=false)]
+2025-05-27 14:00:52 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 14:01:13 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 14:01:13 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 14:01:13 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 14:01:13 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:01:16 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 14:01:16 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:01:20 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:01:20 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:01:20 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 14:01:20 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 14:01:20 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 14:01:20 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 14:01:20 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 14:01:20 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 14:01:24 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:01:24 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:01:24 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=1, quantity=1), {applianceForm=ApplianceForm(applianceId=1, quantity=1), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 14:01:24 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 1, 1]
+2025-05-27 14:01:24 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [1]
+2025-05-27 14:01:24 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 14:01:24 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 14:01:24 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=1, name=Claw, category=BIG, model=-----, manufacturer=Manufacturer(id=1, name=Samsung), powerType=null, characteristic=-------, description=-----, power=600, price=1.01), number=1, amount=1.01)], approved=false)]
+2025-05-27 14:01:24 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 14:05:40 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 14:05:40 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 14:05:40 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 14:05:40 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:05:43 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 14:05:43 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:05:46 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:05:46 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:05:46 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, {}]
+2025-05-27 14:05:46 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 14:05:46 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 14:05:46 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.getAll with args: [null, null, null]
+2025-05-27 14:05:46 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.getAll
+2025-05-27 14:05:46 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderController.addAppliance with args: [1, ApplianceForm(applianceId=1, quantity=1), {applianceForm=ApplianceForm(applianceId=1, quantity=1), org.springframework.validation.BindingResult.applianceForm=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderServiceImpl.addApplianceToOrder with args: [1, 1, 1]
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing ApplianceServiceImpl.readById with args: [1]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: ApplianceServiceImpl.readById
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.addApplianceToOrder
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderServiceImpl.update with args: [Order(id=1, employee=Employee(department=security), client=Client(card=44556575757), orderRowSet=[OrderRow(id=null, appliance=Appliance(id=1, name=Claw, category=BIG, model=-----, manufacturer=Manufacturer(id=1, name=Samsung), powerType=null, characteristic=-------, description=-----, power=600, price=1.01), number=1, amount=1.01)], approved=false)]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.update
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderController.addAppliance
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, {}]
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing OrderServiceImpl.getRowsByOrderId with args: [1]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getRowsByOrderId
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.getAll with args: [null, null, null]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.getAll
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:05:51 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [1]
+2025-05-27 14:05:51 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing EmployeeServiceImpl.readById with args: [2]
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: EmployeeServiceImpl.readById
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing OrderServiceImpl.isOwnerOrThrow with args: [1, 1]
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.isOwnerOrThrow
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing OrderController.update with args: [1, OrderDto(id=1, employee=EmployeeDto(id=2, name=Denys, email=dan23@gmail.com, password=$2a$12$psaL2af.Zj7TVYpR7BygWODJ1uSPDpXBAjsYMXzQkDnwBDi71qbZS, department=security), client=ClientDto(id=1, name=Ivan, email=null, password=null, card=null), orderRowSetDto=[], approved=false), UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]]]
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing OrderServiceImpl.readById with args: [1]
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.readById
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing OrderServiceImpl.updateById with args: [1, OrderDto(id=1, employee=EmployeeDto(id=2, name=Denys, email=dan23@gmail.com, password=$2a$12$psaL2af.Zj7TVYpR7BygWODJ1uSPDpXBAjsYMXzQkDnwBDi71qbZS, department=security), client=ClientDto(id=1, name=Ivan, email=null, password=null, card=null), orderRowSetDto=[], approved=false)]
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.updateById
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: OrderController.update
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing OrderController.getAll with args: [{}, UsernamePasswordAuthenticationToken [Principal=Client(card=44556575757), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_CLIENT]], 0, 5, null]
+2025-05-27 14:05:56 INFO  LoggingServices:45 - Executing OrderServiceImpl.getAllByClientId with args: [1, 0, 5, null]
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: OrderServiceImpl.getAllByClientId
+2025-05-27 14:05:56 INFO  LoggingServices:47 - Execution successful in: OrderController.getAll
